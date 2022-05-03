@@ -6,4 +6,5 @@
 # Это моя лабораторная работа
 
 ![](photo/users.png)
+
 ![](photo/alex.png)
