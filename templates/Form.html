@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formfornewusers</title>
+</head>
+<body>
+{% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+<form action="" method="post">
+    <p>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+    </p>
+    <p>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+    </p>
+    </p>
+    <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age">
+    </p>
+    </p>
+     <button type="submit">Add me!</button>
+    </p>
+</form>
+</body>
+</html>

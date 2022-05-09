@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Template_userslist</title>
 </head>
 <body>
     {% for user in users %}
-        <h1><a href="/user/{{ user.surname }}">{{ user.name }} {{ user.surname }} <br></a></h1>
+        <h1><a href="/user/{{ user.surname }}"> {{ user.id}}. {{ user.name }} {{ user.surname }} <br></a></h1>
     {% endfor %}
 
 </body>
